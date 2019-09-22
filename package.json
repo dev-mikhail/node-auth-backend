@@ -1,0 +1,9 @@
+{
+  "name": "node_backend_todolist",
+  "version": "1.0.0",
+  "description": "Node.js Backend, TodoList",
+  "main": "app.js",
+  "repository": "https://github.com/dev-mikhail/node-auth-backend.git",
+  "author": "Mikhail <mikhail97ru@rambler.ru>",
+  "license": "MIT"
+}
