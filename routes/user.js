@@ -30,7 +30,7 @@ router.post('/register', function (req, res) {
         r: 'pg',
         d: 'mm'
       });
-      const userUser = newe User({
+      const newUser = new User({
         name: req.body.name,
         email: req.body.email,
         password: req.body.password,
@@ -84,7 +84,7 @@ router.post('/login', (req, res) => {
             jwt.sign(payload, 'secret', {
               expiresIn: 3600
             }, (err, token) => {
-              if (err) console.error('There is som error in token', err);
+              if (err) console.error('There is some error in token', err);
               else {
                 res.json({
                   success: true,
